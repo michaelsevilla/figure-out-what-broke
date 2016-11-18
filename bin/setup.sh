@@ -9,7 +9,7 @@ echo "======================"
 echo "INFO: compiling 3PAR commit: (`git log --oneline -1`)"
 cd src >> /dev/null
 make
-echo "compile compile compile..."; sleep $DELAY
+echo "compile compile compile...COMPILE"; sleep $DELAY
 echo "compile compile compile..."; sleep $DELAY
 make install
 cd - >> /dev/null
