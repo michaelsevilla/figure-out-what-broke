@@ -5,6 +5,6 @@ int main() {
   printf("... starting up 3PAR\n");
   sleep(1);
   printf("... done. Wow that was fast\n");
-  sleep(4);
+  sleep(1);
   return 1;
 }
